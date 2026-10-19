@@ -1,0 +1,153 @@
+      * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f5f2;
+            color: #26352b;
+        }
+
+        header {
+            background-color: #176b3a;
+            color: white;
+            padding: 25px 35px;
+            border-bottom: 5px solid #8cc63f;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 26px;
+        }
+
+        header p {
+            margin: 8px 0 0;
+            color: #e3f2e8;
+        }
+
+        main {
+            padding: 30px;
+        }
+
+        #computadores {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 22px;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #d7e2d9;
+            border-top: 5px solid #238447;
+            border-radius: 10px;
+            padding: 22px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.07);
+            min-width: 0;
+        }
+
+        .card h3 {
+            margin: 0;
+            color: #176b3a;
+            font-size: 20px;
+        }
+
+        .ip {
+            background-color: #f0f6f1;
+            border-radius: 6px;
+            padding: 10px;
+            font-size: 14px;
+            overflow-wrap: anywhere;
+        }
+
+        .card button,
+        .card select {
+            width: 100%;
+            padding: 11px;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .card button {
+            border: none;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        button {
+            background-color: #238447;
+        }
+
+        button:hover {
+            background-color: #1bfa78;
+        }
+
+        .btn-bloquear {
+            background-color: #b33a3a;
+        }
+
+        .btn-bloquear:hover {
+            background-color: #8e2929;
+        }
+
+        .btn-tempo {
+            background-color: #2867a5;
+        }
+
+        .btn-tempo:hover {
+            background-color: #1d4e80;
+        }
+
+        .btn-interromper {
+            background-color: #626b65;
+        }
+
+        .btn-interromper:hover {
+            background-color: #454c47;
+        }
+
+        .card select {
+            border: 1px solid #bdcabe;
+            background-color: white;
+            color: #26352b;
+        }
+
+        .rotulo-tempo {
+            font-size: 13px;
+            font-weight: bold;
+            margin-bottom: -5px;
+        }
+
+        .cronometro {
+            margin: 4px 0 0;
+            padding: 13px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            color: #176b3a;
+            background-color: #edf5ee;
+            border-radius: 6px;
+            font-variant-numeric: tabular-nums;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #66736a;
+            font-size: 12px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 22px;
+            }
+
+            main {
+                padding: 18px;
+            }
+        }

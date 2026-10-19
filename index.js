@@ -335,6 +335,7 @@ ip.forEach((ip)=>{
             <option value="10">10 minutos</option>
             <option value="15">15 minutos</option>
             <option value="30">30 minutos</option>
+            <option value="60">60 minutos</option>
         </select>
 
         <button onclick="desbloquearComputadorPorTempo('${ip}')">desbloquear temporareamente</button>
